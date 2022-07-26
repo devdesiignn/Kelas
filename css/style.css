@@ -66,22 +66,22 @@ body {
 .heading-primary--main {
   display: block;
   color: #fd2b14;
-  font-size: 24rem;
+  font-size: 20rem;
   line-height: 1;
 }
 @media only screen and (min-width: 112.5em) {
   .heading-primary--main {
-    font-size: 28rem;
+    font-size: 24rem;
   }
 }
 @media only screen and (max-width: 56.25em) {
   .heading-primary--main {
-    font-size: 20rem;
+    font-size: 16rem;
   }
 }
 @media only screen and (max-width: 37.5em) {
   .heading-primary--main {
-    font-size: 16rem;
+    font-size: 12rem;
   }
 }
 .heading-primary--sub {
@@ -422,7 +422,7 @@ body {
 
 .header {
   background-image: linear-gradient(to right, rgba(51, 51, 51, 0.1), rgba(51, 51, 51, 0.1)), url(../img/hero-bg.jpg);
-  height: 100vh;
+  height: 95vh;
   background-position: top left;
   background-size: cover;
   position: relative;
