@@ -1,0 +1,12 @@
+css/fonts/
+css/*.css
+!css/style.css
+css/*.comp.css
+css/*.concat.css
+css/*.prefix.css
+css/*.min.css
+!css/style.min.css
+css/*.css.map
+node_modules/
+sass/
+*.json
