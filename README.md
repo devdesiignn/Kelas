@@ -9,7 +9,7 @@ Kelas provides their clients with
 - Creative Solutions and 
 - Brand Marketing
 
-**Your best bet when it comes to Brand Identity design and Digital branding is Keras 💯.**
+**Your best bet when it comes to Brand Identity design and Digital branding is Kelas 💯.**
 
 [Check out our Website](https://devdesiign.github.io/Kelas/)
 
@@ -21,7 +21,7 @@ Kelas is an imaginary startup I created lol.
 
 I got the inspiration from a WordPress site, recreated it, added some modifications as a Former UI designer and...
 
-*voila!* [Keras Design Agency](https://devdesiign.github.io/Kelas/)
+*voila!* [Kelas Design Agency](https://devdesiign.github.io/Kelas/)
 
 I'm open to suggestions and reviews.
 
