@@ -25,6 +25,8 @@ I got the inspiration from a WordPress site, recreated it, added some modificati
 
 I'm open to suggestions and reviews.
 
+***Reach out to me via [Twitter](https://twitter.com/d3vd3511gn) and [LinkedIn](https://www.linkedin.com/in/muiz-haruna-321841187/)***
+
 Thanks ✨
 
 🖤🔥
