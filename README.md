@@ -1,5 +1,5 @@
 # Kelas - A Creative Design Agency Website
-### *Keras?*
+### *Kelas?*
 
 Kelas is a Creative Design Agency that specialises in helping their clients get more customers through creation of engaging contents, and quality brand strategy.
 
