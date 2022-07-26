@@ -1,4 +1,3 @@
-css/fonts/
 css/*.css
 !css/style.css
 css/*.comp.css
