@@ -9,3 +9,4 @@ css/*.css.map
 node_modules/
 sass/
 *.json
+!package.json
