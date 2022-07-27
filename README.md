@@ -21,7 +21,7 @@ Kelas is an imaginary startup I created lol.
 
 I got the inspiration from a WordPress site, recreated it, added some modifications as a Former UI designer and...
 
-*voila!* [Kelas Design Agency](https://devdesiign.github.io/Kelas/)
+*voila!* [Kelas - A Creative Design Agency](https://devdesiign.github.io/Kelas/)
 
 I'm open to suggestions and reviews.
 
