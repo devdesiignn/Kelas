@@ -29,8 +29,9 @@ I'm open to suggestions and reviews.
 
 Thanks ✨
 
-🖤🔥
+🤍 && 🔥
 
+[![Total Time Spent](https://wakatime.com/badge/user/fb658d00-4e70-4cd7-8cda-72b8f1ef0325/project/7e4cc8c0-56fd-4421-a0d8-e3d8ebcd2969.svg)](https://wakatime.com/badge/user/fb658d00-4e70-4cd7-8cda-72b8f1ef0325/project/7e4cc8c0-56fd-4421-a0d8-e3d8ebcd2969)
 ---
 
 ## A Demo 👇
