@@ -1,0 +1,44 @@
+.header {
+  background-image: linear-gradient(
+      to right,
+      rgba($color-gray, 0.1),
+      rgba($color-gray, 0.1)
+    ),
+    url(../img/hero-bg.jpg);
+  height: 95vh;
+  background-position: top left;
+  background-size: cover;
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  &__text-box {
+    @include centerElement;
+  }
+
+  &__scroll-down-box {
+    @include centerElement;
+    top: 85%;
+  }
+
+  &__scroll-down {
+    font-size: 4rem;
+    color: $color-black;
+
+    display: inline-block;
+
+    @include viewport(tab-portrait) {
+      color: $color-white;
+    }
+
+    // animation-name: scrollDown;
+    // animation-duration: 1.5s;
+    // animation-fill-mode: backwards;
+    // animation-iteration-count: infinite;
+    animation: scrollDown 2s backwards infinite;
+  }
+}

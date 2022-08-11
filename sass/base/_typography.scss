@@ -1,0 +1,122 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: $default-font-size;
+  line-height: 1.7;
+  color: $color-gray;
+}
+
+.heading-primary {
+  &--main {
+    display: block;
+    color: $color-primary;
+    font-size: 20rem;
+    line-height: 1;
+
+    @include viewport(big-desktop) {
+      font-size: 24rem;
+    }
+
+    @include viewport(tab-portrait) {
+      font-size: 16rem;
+    }
+
+    @include viewport(phone) {
+      font-size: 12rem;
+    }
+  }
+
+  &--sub {
+    display: block;
+    text-transform: uppercase;
+    color: $color-white;
+    font-size: 2rem;
+    letter-spacing: 20px;
+    // text-shadow: 0 0rem 1rem rgba($color-black, 0.8);
+
+    @include viewport(big-desktop) {
+      font-size: 4rem;
+      letter-spacing: 24px;
+    }
+
+    @include viewport(tab-portrait) {
+      letter-spacing: 10px;
+    }
+  }
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  font-weight: 900;
+  color: $color-black;
+}
+
+.heading-tertiary {
+  font-size: 2.8rem;
+  font-weight: 700;
+
+  &--main {
+    display: block;
+    font-size: 2.8rem;
+  }
+
+  &--sub {
+    color: rgba($color-gray, 0.8);
+  }
+}
+.paragraph {
+  font-weight: 300;
+  color: $color-gray;
+}
+
+.subbox {
+  &__icon {
+    font-size: 8rem;
+    color: $color-primary;
+    display: block;
+  }
+
+  &__heading {
+    color: $color-black;
+    font-size: 2rem;
+  }
+
+  &__paragraph {
+    font-weight: 300;
+    color: $color-gray;
+  }
+}
+
+.feedback {
+  padding: 4rem 2rem;
+  background-color: $color-white;
+  border-radius: 0.4rem;
+  box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+  transition: all 0.4s;
+  &:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
+  }
+
+  &__icon {
+    color: $color-primary;
+    font-size: 3.2rem;
+    display: block;
+  }
+
+  &__paragraph {
+    font-weight: 300;
+    color: $color-black;
+    line-height: 2;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  &__title {
+    font-weight: 500;
+    color: rgba($color-gray, 0.8);
+  }
+}

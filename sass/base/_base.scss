@@ -1,0 +1,24 @@
+// Project Wide Declaration
+html {
+  //Default font size 10px == 1rem
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+// Basic Reset
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+//Selecting Text Tweak
+::selection {
+  color: $color-white;
+  background-color: $color-primary;
+}

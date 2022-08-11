@@ -1,0 +1,30 @@
+.button {
+  outline: none;
+  border: none;
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  font-size: $default-font-size;
+  font-family: "Poppins", sans-serif;
+  border-radius: 0.4rem;
+  transition: all 0.4s;
+  box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
+  font-weight: 500;
+  border: 2px solid transparent;
+
+  &--primary {
+    color: $color-white;
+    background-color: $color-primary;
+
+    &:hover {
+      color: $color-black;
+      background-color: transparent;
+      border: 2px solid $color-black;
+      transform: translateY(-4px);
+      box-shadow: 0 2rem 8rem rgba($color-black, 0.2);
+    }
+
+    &:active {
+      transform: translateY(1px);
+    }
+  }
+}

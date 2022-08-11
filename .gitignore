@@ -7,7 +7,6 @@ css/*.min.css
 !css/style.min.css
 css/*.css.map
 node_modules/
-sass/
 *.json
 !package.json
 Kelas ‐ A Creative Agency.mp4

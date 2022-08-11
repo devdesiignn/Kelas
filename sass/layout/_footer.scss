@@ -1,0 +1,38 @@
+.footer {
+  padding: 4rem;
+
+  background-color: $color-gray;
+  font-family: inherit;
+
+  @include viewport(tab-landscape){
+    text-align: center;
+  }
+
+  &__copyright,
+  &__dev-note,
+  &__link,
+  &__link:active,
+  &__link:link {
+    color: $color-white;
+    font-weight: 300;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    transition: color 0.2s;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.logo {
+  font-size: 2rem;
+  color: $color-primary;
+  font-weight: 800;
+  border: 1px solid $color-primary;
+  display: inline-block;
+  padding: 0.2rem 1.6rem;
+  text-decoration: none;
+
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: $color-white;
+    background-color: $color-primary;
+    border: 1px solid $color-white;
+  }
+}

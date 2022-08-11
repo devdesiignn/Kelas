@@ -1,0 +1,42 @@
+@keyframes scrollDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(20px);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveLeftRight {
+  25% {
+    transform: translateX(-32rem);
+  }
+  
+  75% {
+    transform: translateX(0rem);
+  }
+  
+}
+
+@keyframes moveLeftRightSmall {
+  25% {
+    transform: translateX(-16rem);
+  }
+  
+  75% {
+    transform: translateX(0rem);
+  }
+}
